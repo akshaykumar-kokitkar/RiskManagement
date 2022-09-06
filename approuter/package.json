@@ -1,0 +1,24 @@
+{
+ "name": "approuter",
+ ...
+ "scripts": {
+ //### BEGIN OF DELETE
+   "test": "echo \"Error: no test specified\" && exit 1"
+ //### END OF DELETE
+ //### BEGIN OF INSERT
+   "start": "node node_modules/@sap/approuter/approuter.js"
+ //### END OF INSERT
+ },
+ ...
+ "dependencies": {
+   "@sap/approuter": "^8.5.5"
+ //### BEGIN OF DELETE
+ }
+ //### END OF DELETE
+ //### BEGIN OF INSERT
+ },
+ "engines": {
+    "node": "^14.0.0"
+ }
+ //### END OF INSERT
+ }
